@@ -1,0 +1,11 @@
+$primary: skyblue;
+
+.primary {
+  border: 0;
+  background-color: $primary;
+  color: #333;
+  border-radius: .25rem;
+  padding: .5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}

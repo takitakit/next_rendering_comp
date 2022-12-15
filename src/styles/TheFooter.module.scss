@@ -1,0 +1,15 @@
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+
+.default {
+    width: 100%;
+    background-color: #fff;
+    color: #444;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+}

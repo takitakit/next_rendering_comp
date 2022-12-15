@@ -1,0 +1,35 @@
+.container {
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 4rem;
+  box-sizing: border-box;
+}
+
+.contents {
+  padding: 0 2rem;
+}
+
+.paragraph {
+  text-indent: 1rem;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  margin: 1rem 0;
+
+  > div {
+    border: 1px solid #fff;
+    padding: 1rem;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .body {
+    margin: 1rem 0 0 0;
+  }
+}
